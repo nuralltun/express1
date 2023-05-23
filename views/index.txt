@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark
+     fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand">NıghtClub</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="">Login</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top:100px;">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <a href="" class="list-group-item">Category 1</a>
+                    <a href="" class="list-group-item">Category 2</a>
+                    <a href="" class="list-group-item"> Category 3</a>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div id="mySlider" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+
+                        <li data-target="mySlide" data-slide-to="0" class="active"></li>
+                        <li data-target="mySlide" data-slide-to="1"></li>
+                        <li data-target="mySlide" data-slide-to="2"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="http://placehold.it/800x300" alt="" class="d-block img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placehold.it/800x300" alt="" class="d-block img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placehold.it/800x300" alt="" class="d-block img-fluid">
+                        </div>
+                    </div>
+                    <a href="#mySlider" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#mySlider" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div> 
+         
+           
+
+                <div class="row">
+                    <div class="col-md-4">
+
+
+                        <div class="card my-3">
+                            <img src="http://placehold.it/700x400" alt="" class="card-img-top">
+                            <div class="ard-body">
+                                <h4 class="card-title">
+                                    <a href="#">Product Name</a>
+                                </h4>
+                                <p class="card-text pt-2"></p>
+                                Lorem ipsum dolor sit.
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <i class="fa-light fa-turkish-lira-sign"></i>
+                                    100
+
+                                </small>
+                                <a href="#" class="btn btn-secondary btn-sm float-right">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    <Details></Details>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+
+                        <div class="card my-3">
+                            <img src="http://placehold.it/700x400" alt="" class="card-img-top">
+                            <div class="ard-body">
+                                <h4 class="card-title">
+                                    <a href="#">Product Name</a>
+                                </h4>
+                                <p class="card-text pt-2"></p>
+                                Lorem ipsum dolor sit.
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <i class="fa-solid fa-turkish-lira-sign"></i>
+                                    100
+
+                                </small>
+                                <a href="#" class="btn btn-secondary btn-sm float-right">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    <Details></Details>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+
+                        <div class="card my-3">
+                            <img src="http://placehold.it/700x400" alt="" class="card-img-top">
+                            <div class="ard-body">
+                                <h4 class="card-title">
+                                    <a href="#">Product Name</a>
+                                </h4>
+                                <p class="card-text pt-2"></p>
+                                Lorem ipsum dolor sit.
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <i class="fas fa-lira-sign"></i>
+                                    100
+
+                                </small>
+                                <a href="#" class="btn btn-secondary btn-sm float-right">
+                                    <i class="fas fa-lira-sign"></i>
+                                    <Details></Details>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+
+                        <div class="card my-3">
+                            <img src="http://placehold.it/700x400" alt="" class="card-img-top">
+                            <div class="ard-body">
+                                <h4 class="card-title">
+                                    <a href="#">Product Name</a>
+                                </h4>
+                                <p class="card-text pt-2"></p>
+                                Lorem ipsum dolor sit.
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <i class="fa-solid fa-turkish-lira-sign"></i>
+                                    100
+
+                                </small>
+                                <a href="#" class="btn btn-secondary btn-sm float-right">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
